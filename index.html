@@ -5,13 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Assignment-2 (HTML - Recepie List)</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+      * {        
+        font-family: "Roboto", sans-serif;
+        line-height: 26px;
+      }
+
+      .container{
+        width:450px;
+        margin:200px auto;
+        border:3px solid red;
+        background-color:yellow;
+      }
+
+      h1{
+        margin:0;
+        color:yellow;
+        border: 3px solid red;
+        padding: 12px;
+        background-color: red;
+      }
+
+      ol ol{
+        list-style-type:lower-roman ;
+      }
+
+      li{
+        font-size: 18px;
+      }
+
+      ul li{
+        font-weight: 600;
+      }
+
+      h2{
+        color:darkblue;
+        padding:0 0 6px 0;
+        border-bottom:3px solid darkblue
+      }
+
+      section{
+        padding:0 12px;
+      }
+    </style>
   </head>
   <body>
     <div class="container">
       <h1>Magii Recipe</h1>
 
       <section>
-        <h3>Ingredients</h3>
+        <h2>Ingredients</h3>
 
         <ul>
           <li>Magii</li>
@@ -22,7 +68,7 @@
       </section>
 
       <section>
-        <h3>Instructions</h3>
+        <h2>Instructions</h3>
         <ol>
           <li>Bring water to a boil.</li>
           <li>Add magii to boiling water.</li>
